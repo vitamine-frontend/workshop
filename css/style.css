@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+  outline: none;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;}
+html {
+    height: 100%;
+}
+
+/* TYPOGRAPHY */
+a{}
+a:hover{ text-decoration:none;}
+h1,
+h2, 
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    line-height: 1;
+}
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+
+.text_center {
+  text-align: center;
+}
+.text_left {
+  text-align: left;
+}
+.text_right {
+  text-align: right;
+}
+
+
+
+/* END TYPOGRAPHY */
+	
+header, nav, section, article, aside, footer { display: block;}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;}
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;}
+.clearfix:after {
+  clear: both;}
+/* -----------------------------------------------------style-form------ */
+
+/*==========  placeholder style  ==========*/
+::-webkit-input-placeholder {
+   -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+::-moz-placeholder {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+*:focus::-moz-placeholder {
+  color: transparent !important;
+}
+*[autofocus]::-moz-placeholder:focus {
+  color: #818385 !important;
+}
+*:focus:-moz-placeholder {
+  color: transparent !important;
+}
+*[autofocus]:-moz-placeholder:focus {
+  color: #818385 !important;
+}
+*:focus::-webkit-input-placeholder {
+  color: transparent !important;
+}
+*[autofocus]::-webkit-input-placeholder {
+  color: #818385 !important;
+}
+/*==========  placeholder style  ==========*/
+
+
+input[type=text], textarea {
+  padding: 10px;
+  border:1px solid;
+  box-shadow: 0 1px hsla(359,100%,0%,0.1) inset; 
+}
+textarea {
+  resize:none;
+}
+/* ------------------------------------------------end-style-form---*/
+
+/*==========  layout  ==========*/
+
+
+.pull_left{float: left;}
+.pull_right{float: right;}
+
+.table {display: table;}
+.table_row {display: table-row;}
+.table_cell {display: table-cell;}
+
+.absolute_center {
+  position: absolute;
+  margin: auto;
+  top: 0;bottom: 0;left: 0;right: 0;
+}
+/*==========  layout end  ==========*/
+
+
+
+

@@ -1,0 +1,13 @@
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  *display: inline;
+  zoom: 1;
+  width: 15px;
+  height: 15px;
+}
+.icon_mail {
+  background: url(../img/ico_mail.png) no-repeat;
+  width: 28px;
+  height: 20px;
+}
