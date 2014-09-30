@@ -6,8 +6,55 @@
   width: 15px;
   height: 15px;
 }
-.icon_mail {
-  background: url(../img/ico_mail.png) no-repeat;
-  width: 28px;
-  height: 20px;
+
+
+.icon_avto {
+	background: url(../img/icon_avto.png) no-repeat;
+	width: 75px;
+	height: 75px;
+}
+.icon_avto_orange {
+	background: url(../img/icon_avto_orange.png) no-repeat;
+	width: 75px;
+	height: 75px;
+}
+.icon_shopcart {
+	background: url(../img/icon_shopcart.png) no-repeat;
+	width: 72px;
+	height: 72px;
+}
+.icon_shopcart_orange {
+	background: url(../img/icon_shopcart_orange.png) no-repeat;
+	width: 72px;
+	height: 72px;
+}
+.icon_horeca {
+	background: url(../img/icon_horeca.png) no-repeat;
+	width: 55px;
+	height: 56px;
+}
+.icon_horeca_orange {
+	background: url(../img/icon_horeca_orange.png) no-repeat;
+	width: 55px;
+	height: 56px;
+}
+.icon_banks {
+	background: url(../img/icon_banks.png) no-repeat;
+	width: 80px;
+	height: 65px;
+}
+.icon_banks_orange {
+	background: url(../img/icon_banks_orange.png) no-repeat;
+	width: 80px;
+	height: 65px;
+}
+.icon_design {
+	background: url(../img/icon_design.png) no-repeat;
+	width: 75px;
+	height: 75px;
+}
+.icon_design_orange {
+	background: url(../img/icon_design_orange.png) no-repeat;
+	width: 75px;
+	height: 75px;
 }
