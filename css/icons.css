@@ -58,3 +58,13 @@
 	width: 75px;
 	height: 75px;
 }
+.icon_mail {
+	background: url(../img/mail_icon.png) no-repeat;
+	width: 20px;
+	height: 20px;
+}
+.icon_phone {
+	background: url(../img/phone_icon.png) no-repeat;
+	width: 20px;
+	height: 20px;
+}
